@@ -1,0 +1,66 @@
+5<!DOCTYPE html>
+<html>
+<head>
+	<title> teeaze web</title>
+	<link rel="stylesheet" type="text/css" href="./styles/style.css">
+	<link rel="icon">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      $(".question").click(function(e){
+        e.preventDefault();
+        $(".info").toggleClass('hidden');
+      });
+    });
+  </script>
+</head>
+
+<!--
+	 ____  ____  ____  ____  ____  ____  _________  ____  ____   
+||t ||||e ||||e ||||a ||||z ||||e ||||       ||||w ||||e ||||b ||
+||__||||__||||__||||__||||__||||__||||_______||||__||||__||||__||
+|/__\||/__\||/__\||/__\||/__\||/__\||/_______\||/__\||/__\||/__\|
+
+hand coded with <3
+-->
+
+<body>
+	<header>
+		<h1> tee topor</h1>
+		<div class="question"><img src="assets/img/question.png" width="50px" height="50px"></div>
+	<div class="info hidden">
+tee is a  3D motion designer, illustrator and aspiring programmer.
+<br>
+they are currently based in ridgewood new york. 
+<br>
+their resume can be found <a href="https://docs.google.com/spreadsheets/d/11UEVOIr6W3XdkN5vJQGB77JblWTVunVT9TdW-Hejv0E/edit#gid=0"> here </a>.
+<br>
+*more work samples available on request*
+	</div>
+	</header>
+
+	<section class="scene">
+		<div id="carousel">
+
+		<div class="item bbeyond cell">
+			<a href="./pages/blackbeyond.html"><img id="pic" src="assets/img/blackbeyond-1.png"></a>
+		</div>
+		<div class="item telepresence cell">
+			<a href="./pages/telepresence.html"><img  id="pic" src="assets/img/mainblob.png"></a>
+		</div>
+		<div class="item moo cell">
+			<a href="./pages/moosmemoryfarm.html"><img id="pic" src="assets/img/piggynose.png"></a>
+		</div>
+		<div class="item obscene cell">
+			<a href="./pages/obscenejelly.html"><img id="pic" src="assets/img/myqueerhousetexture.png"></a>
+		</div>
+		<div class="item random cell">
+			<img id="pic" src="assets/img/flower.png">
+		</div>
+	</div>
+</section>
+
+</body>
+</html>
